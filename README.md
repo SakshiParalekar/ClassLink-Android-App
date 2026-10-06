@@ -30,3 +30,26 @@ This project was developed as an academic Android application using Android Stud
 **Sakshi Paralekar**
 
 GitHub: [SakshiParalekar](https://github.com/SakshiParalekar)
+
+## 📸 App Screenshots
+
+## 📸 App Screenshots
+
+### Home
+![Home](ClassLink-Screenshots/home.jpeg)
+
+### Chat Room
+![Chat Room](ClassLink-Screenshots/Chat-room.jpeg)
+
+### AI Summary
+![AI Summary](ClassLink-Screenshots/AI_summary.jpeg)
+
+### Exam Tracker
+![Exam Tracker](ClassLink-Screenshots/ExamTracker.jpeg)
+
+### Study Material
+![Upload Image Note](ClassLink-Screenshots/Upload_ImageNote.jpeg)
+
+### Notes
+![View Text Note](ClassLink-Screenshots/View_TextNote.jpeg)
+
