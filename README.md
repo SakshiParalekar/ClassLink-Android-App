@@ -33,8 +33,6 @@ GitHub: [SakshiParalekar](https://github.com/SakshiParalekar)
 
 ## 📸 App Screenshots
 
-## 📸 App Screenshots
-
 ### Home
 ![Home](ClassLink-Screenshots/home.jpeg)
 
