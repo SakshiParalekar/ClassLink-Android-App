@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_note_card_view"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+
+
+        <ImageView
+            android:id="@+id/deleteNoteBtn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_delete"
+            android:layout_gravity="end"
+            android:contentDescription="Delete Note"
+            android:visibility="gone"
+            app:tint="#ED6868" />
+
+
+
+        <TextView
+            android:id="@+id/note_uploaded_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uploaded by: "
+            android:textSize="12sp"
+            android:textColor="@color/darkBlue"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/note_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/note_content_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:text="This is the content of the text note."
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/summarize_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Ask AI"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#A483D0" />
+
+        <TextView
+            android:id="@+id/note_estimated_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⏱ 1 min"
+            android:textColor="@color/greyText"
+            android:textSize="14sp"
+            android:layout_gravity="right"
+            android:layout_marginTop="4dp"/>
+
+
+        <!-- (Chatgpt) Summary container (hidden initially) -->
+        <LinearLayout
+            android:id="@+id/ai_summary_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:background="#11AAAAAA">
+
+            <!-- add xmlns:app at root layout if not present -->
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/ai_loader"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:visibility="gone"
+                app:lottie_rawRes="@raw/loader"
+                app:lottie_autoPlay="false"
+                app:lottie_loop="true"
+                android:layout_gravity="center" />
+
+
+            <TextView
+                android:id="@+id/tv_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:id="@+id/summary_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:textStyle="italic"/>
+
+            <Button
+                android:id="@+id/btn_copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Copy"
+                android:visibility="gone"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/teal_700"
+                android:textColor="@android:color/white"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

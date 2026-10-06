@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/studyback">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Mood"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnTired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😴 Tired"
+        android:textSize="20dp"
+        android:backgroundTint="@color/yellow"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnBored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😐 Bored"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#DE91B4"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnMotivated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😃 Motivated"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/brand_blue"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnStressed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😟 Stressed"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#7BA7AD"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tvSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your motivation will appear here"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"/>
+</LinearLayout>

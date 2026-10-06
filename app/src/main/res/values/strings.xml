@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClassLink</string>
+    <string name="choose_subject">Choose Subject</string>
+
+    <string name="filter_subject">Select Subject</string>
+    <string name="filter_unit">Select Unit</string>
+    <string name="filter_date">Select Date</string>
+    <string name="gemini_api_key">AIzaSyB34bzwc8TEcJ8zyEPJ6UHsc6hUrDR0ths</string>
+    <!--<string name="note_image_description">note_image_description</string>-->
+
+    <!--<string name="login_welcome">Welcome Back!</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_button">Login</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="signup_now">Sign up now</string>
+
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Sign up to get started</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="register_button">Register</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login_here">Login here</string>-->
+
+    <!--<string name="upload_notes_title">Upload Your Notes 𓂃🖊</string>
+    <string name="upload_notes_subtitle">Select how you\'d like to share your knowledge.</string>
+    <string name="toggle_text_note">Text Note</string>
+    <string name="toggle_image_note">Image Note</string>
+    <string name="text_note_section_title">Enter Text Note Details</string>
+    <string name="hint_note_title">Note Title (e.g., Chapter 1 Summary)</string>
+    <string name="hint_note_content">Type your note content here...</string>
+    <string name="button_upload_text_note">Upload Text Note</string>
+    <string name="image_note_section_title">Enter Image Note Details</string>
+    <string name="content_description_image_preview">Image Preview</string>
+    <string name="button_select_photo">Select Photo</string>
+    <string name="hint_image_description">Image Description (e.g., Photosynthesis diagram)</string>
+    <string name="button_upload_image_note">Upload Image Note</string>
+    <string name="content_description_upload_icon">Upload Icon</string>
+    <string name="content_description_photo_icon">Photo Icon</string>
+
+    <string name="select_subject_prompt">Choose a Subject</string>
+
+    <string-array name="subjects_array">
+        <item>Select Subject</item>
+        <item>General / Uncategorized</item>
+        <item>Announcements / Events</item>
+
+        <item>Mathematics</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+        <item>Computer Science</item>
+        <item>Engineering (General)</item>
+        <item>Electrical Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Electronics &amp; Communication Eng.</item>
+        <item>Information Technology</item>
+        <item>Arts (General)</item>
+        <item>History</item>
+        <item>English Language &amp; Literature</item>
+        <item>Foreign Languages</item>
+        <item>Economics</item>
+        <item>Political Science</item>
+        <item>Sociology</item>
+        <item>Psychology</item>
+        <item>Philosophy</item>
+        <item>Business Administration</item>
+        <item>Accountancy</item>
+        <item>Marketing</item>
+        <item>Finance</item>
+        <item>Law</item>
+        <item>Medicine</item>
+        <item>Pharmacy</item>
+        <item>Nursing</item>
+        <item>Environmental Studies</item>
+        <item>Geography</item>
+        <item>Geology</item>
+        <item>Architecture</item>
+        <item>Urban Planning</item>
+        <item>Journalism &amp; Mass Communication</item>
+        <item>Education</item>
+        <item>Physical Education &amp; Sports</item>
+        <item>Music</item>
+        <item>Fine Arts</item>
+        <item>Performing Arts</item>
+        <item>Design</item>
+        <item>Agriculture</item>
+        <item>Veterinary Science</item>
+        <item>Hotel Management</item>
+        <item>Fashion Design</item>
+        <item>Tourism</item>
+        <item>Research &amp; Thesis</item>
+        <item>Extracurricular Activities</item>
+        <item>Placement / Career Services</item>
+    </string-array>
+&ndash;&gt;-->
+</resources>

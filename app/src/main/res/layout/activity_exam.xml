@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exam_back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📌 Upcoming Exams"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="          Hard work leads to success."
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/editTextExamName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Exam Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"/>
+
+    <Button
+        android:id="@+id/btnPickDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Date"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#EBCC74"/>
+
+    <Button
+        android:id="@+id/btnSaveExam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#66A49B"
+        android:text="Save Exam Details"
+        android:textColor="@color/white"
+
+        android:textSize="20dp" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/examRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+

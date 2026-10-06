@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="purple">#A84EDE</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="royalpurple">#7851A9</color>
+    <color name="yellow">#E4C25E</color>
+    <color name="darkBlue">#2196F3</color>
+    <color name="blue">#71C8EF</color>
+    <color name="grey">#444444</color>
+    <color name="primaryColor">#6200EE</color>
+    <color name="greyText">#F6857F7F</color>
+    <color name="royalBlue">#3F51B5</color>
+    <color name="bluee">#800000FF</color>#800000FF
+    <color name="gray">#F66D6969</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lightBlue">#E4EEFA</color>
+    <color name="lavender">#BA8AD7</color>
+    <color name="lightPurple">#E6D3F2</color>
+    <color name="light_blue_bg">#ADD8E6</color>
+    <color name="dark_blue_text">#3F51B5</color>
+    <color name="lightbluee">#6192D9</color>
+
+
+
+    <color name="brand_blue">#07187A</color>
+    <color name="brand_purple">#750589</color>
+    <color name="brand_orange">#FB9F17</color>
+    <color name="error_red">#E65757</color>
+    <color name="success_green">#4CAF50</color>
+</resources>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="royalpurple">#7851A9</color>
+    <color name="yellow">#E4C25E</color>
+    <color name="darkBlue">#2196F3</color>
+    <color name="blue">#71C8EF</color>
+    <color name="grey">#26BFBFBF</color>
+    <color name="primaryColor">#F6200EE</color>
+    <color name="greyText">#F69B9494</color></resources>-->
+
+
+    <!--<color name="purple_200">#FFBB86</color>
+    <color name="purple_500">#FF6200</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#E4C25E</color>
+    <color name="royalpurple">#7851A9</color>
+    <color name="Purple">#673AB7</color>
+    <color name="primary">#6200EE</color>
+    <color name="onPrimary">#FFFFFF</color>-->
+
+
+    <!--<color name="darkBlue">#2196F3</color>
+    <color name="colorPrimary">#6A1B9A</color>
+    <color name="colorPrimaryDark">#4A148C</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="gradientStartPurple">#EE82EE</color>
+    <color name="gradientEndBlue">#87CEFA</color>
+    <color name="gradientMidPink">#FFB6C1</color>
+    <color name="gradientDeepPurple">#673AB7</color>
+    <color name="appBackgroundLight">#F8F9FA</color>
+    <color name="cardBackgroundWhite">#FFFFFF</color>
+    <color name="textDark">#212121</color>
+    <color name="textMedium">#616161</color>
+    <color name="textLight">#9E9E9E</color>-->
+    <!--<color name="Blue">#71C8EF</color>
+    <color name="primaryColor">#3FF6200EE</color>-->
+    <!--<color name="buttonTextWhite">#FFFFFF</color>-->
+    <!----><!--</resources>-->

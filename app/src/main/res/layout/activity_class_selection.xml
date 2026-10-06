@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F4F8"
+    android:padding="20dp"
+    tools:context=".ClassSelectionActivity">
+
+    <!-- Title CardView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#FFFFFF"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Class Here"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- ListView for displaying classes -->
+    <ListView
+        android:id="@+id/classListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:listSelector="@android:color/transparent"
+        android:background="@drawable/rounded_list_view"
+        android:padding="8dp"/>
+
+    <!-- New: Join Class Button -->
+    <Button
+        android:id="@+id/joinClassButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Join a Class"
+        android:background="@drawable/rounded_button_bg"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:elevation="8dp"/>
+
+</LinearLayout>

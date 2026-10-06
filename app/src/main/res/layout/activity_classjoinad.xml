@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassjoinadActivity">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_classjoinad" />
+
+    <!-- Purple Circle Animation View (Overlay) -->
+    <View
+        android:id="@+id/animCircle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/purple_circle"
+        android:visibility="gone" />
+
+    <!-- Buttons at the Bottom -->
+    <RelativeLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="24dp">
+
+        <!-- Skip Button - Left -->
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/grey"
+            android:text="Skip"
+            android:textColor="#F69B9494" />
+
+        <!-- Get Started Button - Right -->
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="195dp"
+            android:layout_height="49dp"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/lavender"
+            android:text="Get Started"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</RelativeLayout>
